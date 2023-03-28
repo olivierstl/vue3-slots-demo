@@ -1,0 +1,111 @@
+:root {
+  /* Font family */
+  --font-family-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-headings: var(font-family-default);
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --font-family-h1: var(--font-family-headings);
+  --font-family-h2: var(--font-family-headings);
+  --font-family-h3: var(--font-family-headings);
+  --font-family-h4: var(--font-family-default);
+  --font-family-h5: var(--font-family-default);
+  --font-family-h6: var(--font-family-default);
+
+  /* Font sizes */
+  --font-size-default: var(--font-size-16);
+  --font-size-h1: var(--font-size-36);
+  --font-size-h2: var(--font-size-24);
+  --font-size-h3: var(--font-size-20);
+  --font-size-h4: var(--font-size-18);
+  --font-size-h5: var(--font-size-16);
+  --font-size-h6: var(--font-size-15);
+
+  /* Line height */
+  --line-height-h1: var(--line-height-small);
+  --line-height-h2: var(--line-height-small);
+  --line-height-h3: var(--line-height-small);
+  --line-height-h4: var(--line-height-small);
+  --line-height-h5: var(--line-height-default);
+  --line-height-h6: var(--line-height-default);
+
+  /* Font weight */
+  --font-weight-h1: var(--font-weight-light);
+  --font-weight-h2: var(--font-weight-bold);
+  --font-weight-h3: var(--font-weight-bold);
+  --font-weight-h4: var(--font-weight-bold);
+  --font-weight-h5: var(--font-weight-bold);
+  --font-weight-h6: var(--font-weight-bold);
+
+  /* Colors */
+  --color-text-default: var(--deep-blue);
+  --color-text-h1: var(--deep-blue);
+  --color-text-h2: var(--purple);
+  --color-text-h3: var(--pond-bottom);
+  --color-text-h4: var(--deep-blue);
+  --color-text-h5: var(--deep-blue);
+  --color-text-h6: var(--deep-blue);
+  --color-text-link: blue;
+  --color-text-link-active: red;
+  --color-text-link-visited: purple;
+}
+
+body {
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-default);
+  line-height: var(--line-height-default);
+  color: var(--color-text-default);
+}
+
+h1,
+.title-1 {
+  font-family: var(--font-family-h1);
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-h1);
+  line-height: var(--line-height-h1);
+  color: var(--color-text-h1);
+}
+
+h2,
+.title-2 {
+  font-family: var(--font-family-h2);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+  line-height: var(--line-height-h2);
+  color: var(--color-text-h2);
+}
+
+h3,
+.title-3 {
+  font-family: var(--font-family-h3);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-h3);
+  line-height: var(--line-height-h3);
+  color: var(--color-text-h3);
+}
+
+h4,
+.title-4 {
+  font-family: var(--font-family-h4);
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-h4);
+  line-height: var(--line-height-h4);
+  color: var(--color-text-h4);
+}
+
+h5,
+.title-5 {
+  font-family: var(--font-family-h5);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-h5);
+  line-height: var(--line-height-h5);
+  color: var(--color-text-h5);
+}
+
+h6,
+.title-6 {
+  font-family: var(--font-family-h6);
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-h6);
+  line-height: var(--line-height-h6);
+  color: var(--color-text-h6);
+}

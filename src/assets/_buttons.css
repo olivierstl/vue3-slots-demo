@@ -1,0 +1,24 @@
+:root {
+  /* Font size */
+  --font-size-button-default: var(--font-size-16);
+  --font-size-button-small: var(--font-size-14);
+
+  --padding-button-default: var(--spacer-8) var(--spacer-16);
+  --border-radius-button: var(--border-radius-4);
+}
+
+[class*="button"] {
+  border: none;
+  background-color: initial;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: var(--font-family-button);
+  font-size: var(--font-size-button);
+  border-radius: var(--border-radius-button);
+  display: inline-block;
+  padding: var(--padding-button-default);
+}
+
+.button-primary {
+
+}

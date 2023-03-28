@@ -1,14 +1,18 @@
 <template>
-  <header>
+  <main
+    role="main"
+    class="main-wrapper"
+  >
     <h1>Les slots dans Vue 3</h1>
 
     <button
       type="button"
+      class="button"
       v-on:click="showSlots = !showSlots"
     >
       slots {{ showSlots ? 'on' : 'off' }}
     </button>
-  </header>
+  </main>
 </template>
 
 <script setup lang="ts">
